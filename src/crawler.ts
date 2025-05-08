@@ -84,6 +84,6 @@ async function rastrear(url: string): Promise<void> {
   }
 }
 
-// 🚀 Início do rastreamento a partir da primeira página
+// Início do rastreamento a partir da primeira página
 const urlDePartida = new URL(paginaInicial, siteBase).href;
 rastrear(urlDePartida);
